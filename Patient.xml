@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patient   xmlns="http://hl7.org/fhir"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/adriano/Documents/Pessoal/_eLearning/FHIR/Schemas/xsd/patient.xsd">
+   <id value="2507276"/>
+   <meta>
+      <versionId value="1"/>
+      <lastUpdated value="2021-08-16T00:17:17.678+00:00"/>
+      <source value="#e6A8d3iiQj0P3xOi"/>
+   </meta>
+   <text>   
+      <status value="generated"/>
+      <div xmlns="http://www.w3.org/1999/xhtml">Adriano Accorsi</div>
+   </text>
+   <identifier>
+      <system value="http://clinfhir.com/fhir/NamingSystem/identifier"/>
+      <value value="adriano@token.com.br"/>
+   </identifier>
+   <name>
+      <use value="official"/>
+      <text value="Adriano Accorsi"/>
+      <family value="Accorsi"/>
+      <given value="Adriano"/>
+   </name>
+   <telecom>
+      <system value="phone"/>
+      <value value="(03) 5555 6789"/>
+      <use value="home"/>
+   </telecom>
+   <gender value="male"/>
+   <birthDate value="1993-11-29"/>  
+  <address>
+       <line value="3300 Washtenaw"/>
+       <city value="Ann Harbour"/>
+       <district value="Washtenaw"/>
+       <state value="MI"/>
+       <postalCode value="48104"/>
+       <country value="EUA"/>
+  </address>
+  <maritalStatus> 
+       <coding> 
+         <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/> 
+         <code value="M"/> 
+         <display value="Married"/> 
+       </coding> 
+       <text value="Casado"/> 
+   </maritalStatus> 
+</Patient>
